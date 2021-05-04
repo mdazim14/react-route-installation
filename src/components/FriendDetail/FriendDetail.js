@@ -20,9 +20,10 @@ const FriendDetail = () => {
     return (
         <div style={friendStyle}>
             <h1 style={{color: 'green', backgroundColor:'goldenrod' , border: '5px solid red'}}>This is Friend Details Components of : {friendId}</h1>
-            <p>Email:{friend.email}</p>
-            <p>Phone:{friend.phone}</p>
-            <p>Web site:{friend.website}</p>
+            <h2>Name: {friend.name}</h2>
+            <p>Email: {friend.email}</p>
+            <p>Phone: {friend.phone}</p>
+            <p>Web site: {friend.website}</p>
             <button style={{ backgroundColor:'blue', borderRadius:'5px', padding:'10px', color:'white'}} >Add Friend</button>
         </div>
     );
